@@ -1,0 +1,5 @@
+/*@preserve*/
+/*@polyfill :host > foo*/
+::content > :not(template){
+  display: block;
+}
